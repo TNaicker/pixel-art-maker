@@ -1,0 +1,43 @@
+body{
+  background: white;
+}
+
+.grid h1{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  font: serif 27px
+}
+.grid{
+  border: solid 2px grey;
+  border-radius: 10px;
+  /*background-image: url("texture.jpg");*/
+  background-color: #D3D3D3;
+  box-shadow: 1px 1px 20px black;
+  width: 1050px;
+  height: 700px;
+  margin: auto;
+}
+
+table{
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 0 auto;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+td{
+  border: solid 1px black;
+  width: 10px;
+  height: 10px;
+}
+td:hover{
+  box-shadow: inset 1px 1px 10px grey;
+}
+.colorPicker{
+  float: right;
+}
+.colorPicker td{
+  border-radius: 70px;
+  width: 40px;
+  height: 40px;
+}
